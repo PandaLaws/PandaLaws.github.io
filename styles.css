@@ -1,0 +1,1156 @@
+/* Reset básico */
+html, body {
+    height: 100%;
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+    
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+.producto p {
+    margin-bottom: 1em;
+    text-align: center;
+    color: #000000;
+}
+
+.producto button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.producto button:hover {
+    background-color: #0056b3;
+}
+
+.carrito {
+    flex: 1 1 100%;
+}
+
+.carrito ul {
+    list-style-type: none;
+}
+
+.carrito li {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-remover {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-remover:hover {
+    background-color: #cc0000;
+}
+
+#btn-comprar {
+    display: inline-block;
+    background-color: #25D366; /* Color de WhatsApp */
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#btn-comprar:hover {
+    background-color: #128C7E; /* Tono más oscuro de WhatsApp */
+}
+/* Estilo general de botones */
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Botón Añadir al Carrito */
+.producto button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+.producto button:hover {
+    background-color: #45a049; /* Un verde un poco más oscuro al pasar el cursor */
+}
+
+/* Botones del carrito */
+#items-carrito button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px; /* Espacio entre el texto del producto y los botones */
+}
+
+#items-carrito button:hover {
+    opacity: 0.8; /* Al pasar el cursor, el botón será ligeramente transparente */
+}
+
+/* Botón para reducir cantidad */
+#items-carrito button:nth-child(1) {
+    background-color: #FFC107; /* Amarillo */
+    color: black;
+}
+
+/* Botón Eliminar */
+#items-carrito button:nth-child(2) {
+    background-color: #F44336; /* Rojo */
+    color: white;
+}
+
+/* Botón Comprar (WhatsApp) */
+#btn-comprar {
+    background-color: #25D366; /* Color de WhatsApp */
+    color: white;
+    font-weight: bold;
+}
+
+#btn-comprar:hover {
+    background-color: #128C7E; /* Un color ligeramente más oscuro para el botón de WhatsApp al pasar el cursor */
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto input {
+    width: 50px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.producto .agregar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.producto .incrementar {
+    background-color: #FFC107;
+    color: black;
+}
+/* Estilo de los enlaces */
+
+
+/* Cambio de color al pasar el cursor sobre el enlace */
+#contador-carrito {
+    background-color: red;
+    color: white;
+    padding: 2px 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 0.8em;
+}
+
+/* ... (El resto de tu CSS) ... */
+
+/* Estilo para la cabecera y el enlace de regreso a productos */
+
+
+/* Para el enlace de regreso a productos */
+
+/* Estilos para la sección del carrito */
+.carrito h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.carrito ul {
+    margin-bottom: 20px;
+}
+
+.carrito p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Para el botón de comprar en el carrito */
+#btn-comprar {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+/* Estilos generales para botones */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para el botón de eliminar */
+.eliminar {
+    background-color: #e74c3c;
+    color: white;
+    margin-left: 15px;
+}
+
+.eliminar:hover {
+    background-color: #c0392b;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.eliminar:focus {
+    box-shadow: 0px 0px 0px 3px rgba(231, 76, 60, 0.4);
+}
+
+/* Estilos para la sección del carrito */
+.carrito {
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrito h2 {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#items-carrito li {
+    padding: 10px 0;
+    border-top: 1px solid #e1e1e1;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#btn-comprar {
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#btn-comprar:hover {
+    background-color: #27ae60;
+}
+
+#btn-comprar:focus {
+    box-shadow: 0px 0px 0px 3px rgba(46, 204, 113, 0.4);
+}
+
+
+footer a.btn-footer {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1em 0;
+    font-size: 2em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+/* Animaciones para los botones */
+@keyframes btnPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+header a.btn-header:hover,
+.presentacion a.btn-presentacion:hover,
+.galeria a.btn-galeria:hover,
+.convencer a.btn-convencer:hover,
+footer a.btn-footer:hover {
+    animation: btnPulse 0.7s infinite;
+}
+/* Título General de Producto */
+.titulo-producto h2 {
+    font-size: 2.4em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.titulo-producto p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Título de Variación */
+.variendad-producto {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Añade esto a tu archivo styles.css */
+
+footer {
+    background: linear-gradient(135deg, #5b075b, #f51786);
+    padding: 45px 0;
+    color: #ffffff;
+    border-top: 3px solid #ffffff;
+    margin-top: 11em
+}
+
+.footer-container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Espaciado entre iconos */
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 50px;
+    padding: 20px 40px;
+    transition: color 0.3s;
+}
+
+.social-icons .whatsapp:hover {
+    color: #25D366;
+}
+
+.social-icons .facebook:hover {
+    color: #1877F2;
+}
+
+.social-icons .instagram:hover {
+    color: #C13584;
+}
+.catalogo{
+    background-color: #f51786;
+}
+@media only screen and (max-width: 600px) {
+    .social-icons {
+        gap: 20px; /* Reduce el espacio entre iconos */
+    }
+
+    .social-icons a {
+        padding: 0;
+        font-size: 45px; /* Reduce el tamaño de los íconos */
+        padding: 10px 30px; /* Reduce el padding de los enlaces */
+    }
+
+    a {
+        padding: 5px 10px; /* Reduce el padding de los demás enlaces */
+    }
+}
+header {
+    background: linear-gradient(135deg, #5b075b, #f51786);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin: 0;
+    border-bottom: 3px solid #fff;
+}
+header h1{
+    margin-top: 0;
+}
+
+/* Flexbox es genial para diseño responsive, así que no haremos muchos cambios aquí */
+.productos{
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.carrito {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.producto {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 2em;
+    flex: 1 1 calc(25% - 1em);
+    box-sizing: border-box;
+    padding: 1em;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* ... (Todo el resto de tu CSS se mantiene como está) ... */
+
+/* Media Queries */
+
+/* Para tabletas y dispositivos con un ancho máximo de 1024px */
+@media only screen and (max-width: 1024px) {
+    .producto {
+        flex: 1 1 calc(33.33% - 1em); /* tres productos por fila */
+    }
+}
+
+/* Para dispositivos móviles con un ancho máximo de 768px */
+@media only screen and (max-width: 768px) {
+    .producto {
+        flex:1 1 calc(50% - 1em); /* Un producto por fila */
+    }
+
+    .productos, .carrito {
+        padding: 0;
+    }
+}
+
+/* Para dispositivos móviles con un ancho máximo de 480px */
+@media only screen and (max-width: 512px) {
+    body {
+        font-size: 14px; /* Un tamaño de letra ligeramente más pequeño */
+    }
+    
+    .carrito ul {
+        padding-left: 10px; /* Para asegurarnos de que hay algo de espacio */
+    }
+    
+    header {
+        padding: 0.5em 0; /* Encabezado más pequeño para ahorrar espacio */
+    }
+}
+.contenido {
+    position: relative;
+    /* Otros estilos necesarios para tu diseño */
+}
+
+#enlace-carrito {
+    top: 24px;
+    z-index: 1000;
+    color: #50b3a2 ;
+    padding: 0.5em;
+    position: fixed;
+    right: 10px;
+    font-size: 27px;
+    background: none;
+
+}
+/*cambios aqui*/
+/* Reset básico y estilos generales */
+
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #5b075b, #f51786);
+    border-radius: 100px;
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos avanzados para el carrito */
+.carrito {
+    max-width: 650px;
+    margin: 60px auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.carrito::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #50b3a2, transparent);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.carrito h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    font-size: 2em;
+}
+
+.carrito h2::before {
+    content: '\f07a'; /* ícono de carrito de Font Awesome */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 48px;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #50b3a2;
+    animation: bounce 0.6s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#items-carrito {
+    list-style-type: none;
+}
+
+#items-carrito li {
+    padding: 15px;
+    border-bottom: 2px dashed #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    color: #000000;
+    border: 2px solid;
+}
+
+#btn-comprar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #5b075b, #f51786);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#btn-comprar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.2);
+}
+
+#btn-comprar:active {
+    transform: translateY(1px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.titulo-modificaciones{
+    background: none; 
+    border-radius: 0; 
+}
+.barra-boton{
+    right: 10px;
+}
+input{
+    text-align: center;
+    background-color: #e7dbdb;
+}
+
+
+/**nuevo quidado **/
+
+
+
+/* Reset básico */
+
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.presentacion h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.presentacion img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.galeria {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.imagenes img {
+    margin: 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.convencer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.convencer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+
+
+/* Ajuste para móviles */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .presentacion, .galeria, .convencer {
+        padding: 30px 15px;
+    }
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    border: none;
+    background: #2c3e50;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-container button:hover {
+    background: #34495e;
+}
+.busqueda-container {
+    position: relative;
+}
+
+.suggestions {
+    position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.suggestions div {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestions div:hover {
+    background-color: #eee;
+}
+
+#searchBar:focus + .suggestions {
+    display: block;
+}
+/* Estilos para el contenedor de sugerencias */
+.suggestions {
+    position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 1;
+  }
+  
+  /* Estilos para cada elemento sugerido */
+  .suggestions div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+  }
+  
+  /* Cambiar el color de fondo al pasar el mouse */
+  .suggestions div:hover {
+    background-color: #ddd;
+  }
+  .busqueda-container {
+    position: relative; /* Esto permitirá que las sugerencias se posicionen correctamente debajo del input */
+}
+
+.suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%; /* Hace que se posicione justo debajo del input de búsqueda */
+    left: 0; /* Alineado al borde izquierdo del input de búsqueda */
+    width: calc(100% - 2px);  /* se ajusta al ancho del contenedor */
+    background-color: white;
+    z-index: 10;  
+    display: none;  
+}
+
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.suggestions div:hover {
+    background-color: #f5f5f5;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+@keyframes openModal {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal li:hover {
+    background-color: #f5f5f5;
+}
+/* Importaremos una tipografía de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes openModal {
+    from {transform: translateY(-50%); opacity: 0}
+    to {transform: translateY(0); opacity: 1}
+}
+
+.closeModal{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #f04a5d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal li:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+/* Importaremos una tipografía de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #cc33cc, #f51786);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #cc33cc;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+    width: 80%; 
+    max-width: 600px;
+    animation-name: openModal;
+    animation-duration: 0.6s;
+}
+.modal-content h2{
+    color: #ffffff;
+}
+
+@keyframes openModal {
+    from {transform: translateY(-50%); opacity: 0}
+    to {transform: translateY(0); opacity: 1}
+}
+
+#closeModal {
+    color: #ffffff;;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+#closeModal:hover,
+#closeModal:focus {
+    color: #f04a5d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.modal li {
+    cursor: pointer;
+    padding: 12px 18px;
+    border-bottom: 1px solid #5b075b;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+}
+
+.modal li:last-child {
+    border-bottom: none;
+}
+
+.modal li:hover {
+    background-color: #5b075b;
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+/* Importaremos otra tipografía de Google Fonts que es más estilizada */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #635f63;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+h3{
+    color: #ffffff;
+}
+#showH3Modal{    
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 25px;
+    background: linear-gradient(135deg, #5b075b, #f51786);
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    
+}
+#showH3Modal:hover {
+    transform: scale(1.1);
+    }
+.centra-botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.responsive-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.responsive-video:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo y animación para cuando se visualice en dispositivos móviles */
+@media (max-width: 768px) {
+    .responsive-video {
+        width: 100%;
+        border-radius: 5px;
+        transition: none;
+    }
+    .responsive-video:hover {
+        transform: none;
+    }
+}
+
+.imagen-carrito {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 420px){
+    .imagen-carrito {
+        width: 200px;
+        height: auto;
+        
+    }
+}
+@media screen and (max-width: 320px){
+    .imagen-carrito {
+        width: 150px;
+        height: auto;
+        
+    }
+}
+/*nuevo*/
+.productos_content{
+    background: linear-gradient(135deg, #cc33cc, #f51786);
+    margin: 5% auto;
+    padding: 30px;
+    border: 1px solid #cc33cc;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+    width: 80%;
+    
+}
+.productos_content h2{
+    color: #ffffff;
+}
+.enlaces_productos a{
+     background: none;
+     display: block;
+     background: none;
+    border-bottom: 1px solid #5b075b;
+    display: block;
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 18px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    border-radius: 0;
+    color: #ffffff;
+     
+}
+
+.enlaces_productos a:hover{
+    background-color: #5b075b;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin: auto 5%;
+    
+}
+#miVideo {
+    width: 350px; /* o el tamaño que desees */
+    height: auto;
+    text-align: center;
+}
+.cotenedor_video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+}

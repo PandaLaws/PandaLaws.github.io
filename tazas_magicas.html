@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda's Laws</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="catalogo">
+    <a href="carrito.html" id="enlace-carrito">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-carrito">0</span>
+    </a>
+    <header>
+        <a href="index.html" class="titulo-modificaciones">
+            <img src="imagenes/Index/Panda's Laws 320px.png" alt="Panda's Laws"/>
+        </a>     
+        <a href="productos.html">Volver a Catalogo</a>     
+    </header>
+    <!-- Botón para activar el modal -->
+    <div class="centra-botones">
+        <button id="showH3Modal">Variedad de Diseños</button>
+    </div>
+    <!-- Modal para mostrar los h3 -->
+    <div id="h3Modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Diseños</h2>
+            <ul id="h3List"></ul>
+        </div>
+    </div>
+
+    <!-- Sección de Título General de Producto -->
+    <section class="titulo-producto">
+        <h2>Tazas Magicas Sublimadas</h2>
+        <p>Descubre la magia en cada sorbo con nuestras tazas mágicas de Panda's Laws. Diseños únicos que revelan imágenes con el calor y te permiten expresarte de manera única y especial. ¡Ve cómo funcionan en el siguiente vídeo!</p>
+    </section>
+    <div class="cotenedor_video">
+        <video id="miVideo" controls>
+            <source src="videos/video4963031037778068416.mp4" type="video/mp4">
+            Tu navegador no soporta el tag de video.
+        </video>
+    </div>
+        <!-- variedad del producto -->
+    <h3 class="variendad-producto">Dragon Ball </h3>
+        <!-- Sección de Productos -->
+    <section class="productos">
+        <!-- Producto 1 -->
+        <div class="producto" data-id="85">
+            <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_01.jpg" alt="Producto taza 1">
+            <h2>Tazas Magicas Dragon Ball 1</h2>
+            <p class="precio">$7.00</p>
+            <input type="number" value="1" min="1">
+            <button class="agregar">Añadir al Carrito</button>
+            <button class="incrementar">+1</button>
+        </div>
+                <!-- ... Puedes agregar más productos de forma similar ... -->
+                <div class="producto" data-id="86">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_02.jpg" alt="Producto taza 2">
+                    <h2>Tazas Magicas Dragon Ball 2</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="87">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_03.jpg" alt="Producto taza 3">
+                    <h2>Tazas Magicas Dragon Ball 3</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="88">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_04.jpg" alt="Producto taza 4">
+                    <h2>Tazas Magicas Dragon Ball 4</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="89">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_05.jpg" alt="Producto taza 5">
+                    <h2>Tazas Magicas Dragon Ball 5</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="90">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_06.jpg" alt="Producto taza 6">
+                    <h2>Tazas Magicas Dragon Ball 6</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="91">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_07.jpg" alt="Producto taza 7">
+                    <h2>Tazas Magicas Dragon Ball 7</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="92">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_08.jpg" alt="Producto taza 8">
+                    <h2>Tazas Magicas Dragon Ball 8</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="93">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_09.jpg" alt="Producto taza 9">
+                    <h2>Tazas Magicas Dragon Ball 9</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="94">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_10.jpg" alt="Producto taza 10">
+                    <h2>Tazas Magicas Dragon Ball 10</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="95">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_11.jpg" alt="Producto taza 11">
+                    <h2>Tazas Magicas Dragon Ball 11</h2>
+    
+                        <p class="precio">$7.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="96">
+                    <img src="imagenes/productos/tazas/Dragon Ball/DragonBall_12.jpg" alt="Producto taza 12">
+                    <h2>Tazas Magicas Dragon Ball 12</h2>
+    
+                    <p class="precio">$7.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+            </section> <!-- Fin Dragon Ball-->
+
+
+                    <!-- variedad del producto -->
+            <h3 class="variendad-producto">Naruto</h3>
+                    <!-- Sección de Productos -->
+        <section class="productos">
+            <!-- Producto 2 -->
+            <div class="producto" data-id="97">
+                <img src="imagenes/productos/tazas/Naruto/Naruto_01.jpg" alt="Naruto taza 1">
+                <h2>Tazas Magicas Naruto 1</h2>
+                
+                <p class="precio">$7.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+                    <!-- ... Puedes agregar más productos de forma similar ... -->
+                    <div class="producto" data-id="98">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_02.jpg" alt="Naruto taza 2">
+                        <h2>Tazas Magicas Naruto 2</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="99">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_03.jpg" alt="Naruto taza 3">
+                        <h2>Tazas Magicas Naruto 3</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="100">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_04.jpg" alt="Naruto taza 4">
+                        <h2>Tazas Magicas Naruto 4</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="101">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_05.jpg" alt="Naruto taza 5">
+                        <h2>Tazas Magicas Naruto 5</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="102">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_06.jpg" alt="Naruto taza 6">
+                        <h2>Tazas Magicas Naruto 6</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="103">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_07.jpg" alt="Naruto taza 7">
+                        <h2>Tazas Magicas Naruto 7</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="104">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_08.jpg" alt="Naruto taza 8">
+                        <h2>Tazas Magicas Naruto 8</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="105">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_09.jpg" alt="Naruto taza 9">
+                        <h2>Tazas Magicas Naruto 9</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="106">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_10.jpg" alt="Naruto taza 10">
+                        <h2>Tazas Magicas Naruto 10</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="107">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_11.jpg" alt="Naruto taza 11">
+                        <h2>Tazas Magicas Naruto 11</h2>
+                        
+                            <p class="precio">$7.00</p>
+                            <!-- Input para la cantidad -->
+                            <input type="number" value="1" min="1">
+                            <!-- Botones para modificar la cantidad y agregar al carrito -->
+                            <button class="agregar">Añadir al Carrito</button>
+                            <button class="incrementar">+1</button>
+                    </div>
+    
+                    <div class="producto" data-id="108">
+                        <img src="imagenes/productos/tazas/Naruto/Naruto_12.jpg" alt="Naruto taza 12">
+                        <h2>Tazas Magicas Naruto 12</h2>
+                        
+                        <p class="precio">$7.00</p>
+                        <input type="number" value="1" min="1">
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                    </div>
+                </section><!-- Fin Naruto-->
+
+
+                       <!-- variedad del producto -->
+            <h3 class="variendad-producto">Los Simpson</h3>
+            <!-- Sección de Productos -->
+        <section class="productos">
+            <!-- Producto 1 -->
+            <div class="producto" data-id="109">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_01.jpg" alt="Los Simpson taza 1">
+                <h2>Tazas Magicas Los Simpson 1</h2>
+        
+                <p class="precio">$7.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+            <!-- ... Puedes agregar más productos de forma similar ... -->
+            <div class="producto" data-id="110">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_02.jpg" alt="Los Simpson taza 2">
+                <h2>Tazas Magicas Los Simpson 2</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="111">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_03.jpg" alt="Los Simpson taza 3">
+                <h2>Tazas Magicas Los Simpson 3</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="112">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_04.jpg" alt="Los Simpson taza 4">
+                <h2>Tazas Magicas Los Simpson 4</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="113">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_05.jpg" alt="Los Simpson taza 5">
+                <h2>Tazas Magicas Los Simpson 5</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="114">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_06.jpg" alt="Los Simpson taza 6">
+                <h2>Tazas Magicas Los Simpson 6</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="115">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_07.jpg" alt="Los Simpson taza 7">
+                <h2>Tazas Magicas Los Simpson 7</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="116">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_08.jpg" alt="Los Simpson taza 8">
+                <h2>Tazas Magicas Los Simpson 8</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="117">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_09.jpg" alt="Los Simpson taza 9">
+                <h2>Tazas Magicas Los Simpson 9</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="118">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_10.jpg" alt="Los Simpson taza 10">
+                <h2>Tazas Magicas Los Simpson 10</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="119">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_11.jpg" alt="Los Simpson taza 11">
+                <h2>Tazas Magicas Los Simpson 11</h2>
+        
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="120">
+                <img src="imagenes/productos/tazas/Los Simpson/LosSimpsons_12.jpg" alt="Los Simpson taza 12">
+                <h2>Tazas Magicas Los Simpson 12</h2>
+        
+                <p class="precio">$7.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+        </section> <!-- Fin Los Simpson-->
+
+            <!-- variedad del producto -->
+            <h3 class="variendad-producto">Hello Kitty</h3>
+            <!-- Sección de Productos -->
+        <section class="productos">
+            <!-- Producto 1 -->
+            <div class="producto" data-id="121">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_01.jpg" alt="Hello Kitty taza 1">
+                <h2>Tazas Magicas Hello Kitty 1</h2>
+                
+                <p class="precio">$7.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+            <!-- ... Puedes agregar más productos de forma similar ... -->
+            <div class="producto" data-id="122">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_02.jpg" alt="Hello Kitty taza 2">
+                <h2>Tazas Magicas Hello Kitty 2</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="123">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_03.jpg" alt="Hello Kitty taza 3">
+                <h2>Tazas Magicas Hello Kitty 3</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="124">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_04.jpg" alt="Hello Kitty taza 4">
+                <h2>Tazas Magicas Hello Kitty 4</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="125">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_05.jpg" alt="Hello Kitty taza 5">
+                <h2>Tazas Magicas Hello Kitty 5</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="126">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_06.jpg" alt="Hello Kitty taza 6">
+                <h2>Tazas Magicas Hello Kitty 6</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="127">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_07.jpg" alt="Hello Kitty taza 7">
+                <h2>Tazas Magicas Hello Kitty 7</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="128">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_08.jpg" alt="Hello Kitty taza 8">
+                <h2>Tazas Magicas Hello Kitty 8</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="129">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_09.jpg" alt="Hello Kitty taza 9">
+                <h2>Tazas Magicas Hello Kitty 9</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="130">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_10.jpg" alt="Hello Kitty taza 10">
+                <h2>Tazas Magicas Hello Kitty 10</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="131">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_11.jpg" alt="Hello Kitty taza 11">
+                <h2>Tazas Magicas Hello Kitty 11</h2>
+                
+                    <p class="precio">$7.00</p>
+                    <!-- Input para la cantidad -->
+                    <input type="number" value="1" min="1">
+                    <!-- Botones para modificar la cantidad y agregar al carrito -->
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="132">
+                <img src="imagenes/productos/tazas/Hello Kitty/HelloKitty_12.jpg" alt="Hello Kitty taza 12">
+                <h2>Tazas Magicas Hello Kitty 12</h2>
+                
+                <p class="precio">$7.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+        </section> <!-- Fin Hello Kitty-->
+
+
+         <!-- variedad del producto -->
+         <h3 class="variendad-producto">Demon Slayer</h3>
+         <!-- Sección de Productos -->
+     <section class="productos">
+         <!-- Producto 1 -->
+         <div class="producto" data-id="133">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_01.jpg" alt="Demon Slayer taza 1">
+             <h2>Tazas Magicas Demon Slayer 1</h2>
+             
+             <p class="precio">$7.00</p>
+             <input type="number" value="1" min="1">
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+         </div>
+         <!-- ... Puedes agregar más productos de forma similar ... -->
+         <div class="producto" data-id="134">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_02.jpg" alt="Demon Slayer taza 2">
+             <h2>Tazas Magicas Demon Slayer 2</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="135">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_03.jpg" alt="Demon Slayer taza 3">
+             <h2>Tazas Magicas Demon Slayer 3</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="136">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_04.jpg" alt="Demon Slayer taza 4">
+             <h2>Tazas Magicas Demon Slayer 4</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="137">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_05.jpg" alt="Demon Slayer taza 5">
+             <h2>Tazas Magicas Demon Slayer 5</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="138">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_06.jpg" alt="Demon Slayer taza 6">
+             <h2>Tazas Magicas Demon Slayer 6</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="139">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_07.jpg" alt="Demon Slayer taza 7">
+             <h2>Tazas Magicas Demon Slayer 7</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="140">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_08.jpg" alt="Demon Slayer taza 8">
+             <h2>Tazas Magicas Demon Slayer 8</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="141">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_09.jpg" alt="Demon Slayer taza 9">
+             <h2>Tazas Magicas Demon Slayer 9</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="142">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_10.jpg" alt="Demon Slayer taza 10">
+             <h2>Tazas Magicas Demon Slayer 10</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="143">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_11.jpg" alt="Demon Slayer taza 11">
+             <h2>Tazas Magicas Demon Slayer 11</h2>
+             
+                 <p class="precio">$7.00</p>
+                 <!-- Input para la cantidad -->
+                 <input type="number" value="1" min="1">
+                 <!-- Botones para modificar la cantidad y agregar al carrito -->
+                 <button class="agregar">Añadir al Carrito</button>
+                 <button class="incrementar">+1</button>
+         </div>
+
+         <div class="producto" data-id="144">
+             <img src="imagenes/productos/tazas/Demon Slayer/DemonSlayer_12.jpg" alt="Demon Slayer taza 12">
+             <h2>Tazas Magicas Demon Slayer 12</h2>
+             
+             <p class="precio">$7.00</p>
+             <input type="number" value="1" min="1">
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+         </div>
+     </section> <!-- Fin Demon Slayer-->
+
+
+     <!-- variedad del producto -->
+     <h3 class="variendad-producto">Tokyo Revengers</h3>
+     <!-- Sección de Productos -->
+ <section class="productos">
+     <!-- Producto 1 -->
+     <div class="producto" data-id="145">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_01.jpg" alt="Tokyo Revengers taza 1">
+         <h2>Tazas Magicas Tokyo Revengers 1</h2>
+         
+         <p class="precio">$7.00</p>
+         <input type="number" value="1" min="1">
+         <button class="agregar">Añadir al Carrito</button>
+         <button class="incrementar">+1</button>
+     </div>
+     <!-- ... Puedes agregar más productos de forma similar ... -->
+     <div class="producto" data-id="146">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_02.jpg" alt="Tokyo Revengers taza 2">
+         <h2>Tazas Magicas Tokyo Revengers 2</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="147">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_03.jpg" alt="Tokyo Revengers taza 3">
+         <h2>Tazas Magicas Tokyo Revengers 3</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="148">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_04.jpg" alt="Tokyo Revengers taza 4">
+         <h2>Tazas Magicas Tokyo Revengers 4</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="149">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_05.jpg" alt="Tokyo Revengers taza 5">
+         <h2>Tazas Magicas Tokyo Revengers 5</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="150">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_06.jpg" alt="Tokyo Revengers taza 6">
+         <h2>Tazas Magicas Tokyo Revengers 6</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="151">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_07.jpg" alt="Tokyo Revengers taza 7">
+         <h2>Tazas Magicas Tokyo Revengers 7</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="152">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_08.jpg" alt="Tokyo Revengers taza 8">
+         <h2>Tazas Magicas Tokyo Revengers 8</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="153">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_09.jpg" alt="Tokyo Revengers taza 9">
+         <h2>Tazas Magicas Tokyo Revengers 9</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="154">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_10.jpg" alt="Tokyo Revengers taza 10">
+         <h2>Tazas Magicas Tokyo Revengers 10</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="155">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_11.jpg" alt="Tokyo Revengers taza 11">
+         <h2>Tazas Magicas Tokyo Revengers 11</h2>
+         
+             <p class="precio">$7.00</p>
+             <!-- Input para la cantidad -->
+             <input type="number" value="1" min="1">
+             <!-- Botones para modificar la cantidad y agregar al carrito -->
+             <button class="agregar">Añadir al Carrito</button>
+             <button class="incrementar">+1</button>
+     </div>
+
+     <div class="producto" data-id="156">
+         <img src="imagenes/productos/tazas/Tokyo revengers/TokyoRevengers_12.jpg" alt="Tokyo Revengers taza 12">
+         <h2>Tazas Magicas Tokyo Revengers 12</h2>
+         
+         <p class="precio">$7.00</p>
+         <input type="number" value="1" min="1">
+         <button class="agregar">Añadir al Carrito</button>
+         <button class="incrementar">+1</button>
+     </div>
+ </section> <!-- Fin Tokyo Revengers-->
+
+<!-- variedad del producto -->
+<h3 class="variendad-producto">Stranger Things</h3>
+<!-- Sección de Productos -->
+<section class="productos">
+<!-- Producto 1 -->
+<div class="producto" data-id="157">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_01.jpg" alt="Stranger Things taza 1">
+ <h2>Tazas Magicas Stranger Things 1</h2>
+
+ <p class="precio">$7.00</p>
+ <input type="number" value="1" min="1">
+ <button class="agregar">Añadir al Carrito</button>
+ <button class="incrementar">+1</button>
+</div>
+<!-- ... Puedes agregar más productos de forma similar ... -->
+<div class="producto" data-id="158">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_02.jpg" alt="Stranger Things taza 2">
+ <h2>Tazas Magicas Stranger Things 2</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="159">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_03.jpg" alt="Stranger Things taza 3">
+ <h2>Tazas Magicas Stranger Things 3</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="160">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_04.jpg" alt="Stranger Things taza 4">
+ <h2>Tazas Magicas Stranger Things 4</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="161">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_05.jpg" alt="Stranger Things taza 5">
+ <h2>Tazas Magicas Stranger Things 5</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="162">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_06.jpg" alt="Stranger Things taza 6">
+ <h2>Tazas Magicas Stranger Things 6</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="163">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_07.jpg" alt="Stranger Things taza 7">
+ <h2>Tazas Magicas Stranger Things 7</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="164">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_08.jpg" alt="Stranger Things taza 8">
+ <h2>Tazas Magicas Stranger Things 8</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="165">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_09.jpg" alt="Stranger Things taza 9">
+ <h2>Tazas Magicas Stranger Things 9</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="166">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_10.jpg" alt="Stranger Things taza 10">
+ <h2>Tazas Magicas Stranger Things 10</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="167">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_11.jpg" alt="Stranger Things taza 11">
+ <h2>Tazas Magicas Stranger Things 11</h2>
+
+     <p class="precio">$7.00</p>
+     <!-- Input para la cantidad -->
+     <input type="number" value="1" min="1">
+     <!-- Botones para modificar la cantidad y agregar al carrito -->
+     <button class="agregar">Añadir al Carrito</button>
+     <button class="incrementar">+1</button>
+</div>
+
+<div class="producto" data-id="168">
+ <img src="imagenes/productos/tazas/Stranger Things/StrangerThings_12.jpg" alt="Stranger Things taza 12">
+ <h2>Tazas Magicas Stranger Things 12</h2>
+
+ <p class="precio">$7.00</p>
+ <input type="number" value="1" min="1">
+ <button class="agregar">Añadir al Carrito</button>
+ <button class="incrementar">+1</button>
+</div>
+</section> <!-- Fin Stranger Things-->
+            <script src="productos.js"></script>
+            <script src="carrito.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</div>
+<script>
+/*nuevo */
+//seccion 
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById('h3Modal');
+    const btn = document.getElementById('showH3Modal');
+    const span = document.getElementById('closeModal');
+    const h3List = document.getElementById('h3List');
+
+    // Llena el modal con los h3
+    const h3s = document.querySelectorAll('h3');
+    h3s.forEach(h3 => {
+        const li = document.createElement('li');
+        li.textContent = h3.textContent;
+        li.addEventListener('click', function() {
+            modal.style.display = 'none';
+            h3.scrollIntoView({behavior: 'smooth'});
+        });
+        h3List.appendChild(li);
+    });
+
+    // Muestra el modal
+    btn.onclick = function() {
+        modal.style.display = 'block';
+    }
+
+    // Cierra el modal al hacer clic en la "x"
+    span.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    // Cierra el modal si se hace clic fuera del contenido
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+});
+
+    </script>
+    
+</body>
+
+<footer>
+    <div class="footer-container">
+        <h4>Síguenos en nuestras redes</h4>
+        <div class="social-icons">
+            <a href="https://wa.me/+584128955434" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/100083208518514/" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/panda__laws/" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+        </html>

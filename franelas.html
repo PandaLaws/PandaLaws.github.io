@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda's Laws</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="catalogo">
+    <a href="carrito.html" id="enlace-carrito">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-carrito">0</span>
+    </a>
+    <header>
+        <a href="index.html" class="titulo-modificaciones">
+            <img src="imagenes/Index/Panda's Laws 320px.png" alt="Panda's Laws"/>
+        </a>  
+        <a href="productos.html">Volver a Catalogo</a>       
+    </header>
+    <!-- Botón para activar el modal -->
+    <div class="centra-botones">
+        <button id="showH3Modal">Variedad de Diseños</button>
+    </div>
+    <!-- Modal para mostrar los h3 -->
+    <div id="h3Modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Diseños</h2>
+            <ul id="h3List"></ul>
+        </div>
+    </div>
+
+    <!-- Sección de Título General de Producto -->
+    <section class="titulo-producto">
+        <h2>Franelas sublimadas</h2>
+        <p>"¡Desata tu estilo con Panda's Laws! Nuestras franelas sublimadas te ofrecen diseños exclusivos y colores intensos que reflejan tu individualidad. ¡Siente la diferencia con cada uso!"</p>
+    </section>
+        <!-- variedad del producto -->
+    <h3 class="variendad-producto">Pokemon</h3>
+        <!-- Sección de Productos -->
+    <section class="productos">
+        <!-- Producto 1 -->
+        <div class="producto" data-id="169">
+            <img src="imagenes/productos/franelas/Pokemon/0p.jpg" alt="Pokemon Franela 1">
+            <h2>Franela De Pokemon 1</h2>
+            
+            <p class="precio">$10.00</p>
+            <input type="number" value="1" min="1">
+            <button class="agregar">Añadir al Carrito</button>
+            <button class="incrementar">+1</button>
+        </div>
+                <!-- ... Puedes agregar más productos de forma similar ... -->
+                <div class="producto" data-id="170">
+                    <img src="imagenes/productos/franelas/Pokemon/blastoise.jpg" alt="Pokemon Franela 2">
+                    <h2>Franela De Pokemon 2</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="171">
+                    <img src="imagenes/productos/franelas/Pokemon/charizard.jpg" alt="Pokemon Franela 3">
+                    <h2>Franela De Pokemon 3</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="172">
+                    <img src="imagenes/productos/franelas/Pokemon/CHARMANDER 2.jpg" alt="Pokemon Franela 4">
+                    <h2>Franela De Pokemon 4</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="173">
+                    <img src="imagenes/productos/franelas/Pokemon/charmander.jpg" alt="Pokemon Franela 5">
+                    <h2>Franela De Pokemon 5</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="174">
+                    <img src="imagenes/productos/franelas/Pokemon/esquirtle.jpg" alt="Pokemon Franela 6">
+                    <h2>Franela De Pokemon 6</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="175">
+                    <img src="imagenes/productos/franelas/Pokemon/gastly.jpg" alt="Pokemon Franela 7">
+                    <h2>Franela De Pokemon 7</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="176">
+                    <img src="imagenes/productos/franelas/Pokemon/GENBAR 3.jpg" alt="Pokemon Franela 8">
+                    <h2>Franela De Pokemon 8</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="177">
+                    <img src="imagenes/productos/franelas/Pokemon/GENGAR 2.jpg" alt="Pokemon Franela 9">
+                    <h2>Franela De Pokemon 9</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="178">
+                    <img src="imagenes/productos/franelas/Pokemon/8.jpg" alt="Pokemon Franela 10">
+                    <h2>Franela De Pokemon 10</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="179">
+                    <img src="imagenes/productos/franelas/Pokemon/gyarados.jpg" alt="Pokemon Franela 11">
+                    <h2>Franela De Pokemon 11</h2>
+                    
+                        <p class="precio">$10.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="180">
+                    <img src="imagenes/productos/franelas/Pokemon/HAUNTER.jpg" alt="Pokemon Franela 12">
+                    <h2>Franela De Pokemon 12</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="181">
+                    <img src="imagenes/productos/franelas/Pokemon/new.jpg" alt="Pokemon Franela 13">
+                    <h2>Franela De Pokemon 13</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="182">
+                    <img src="imagenes/productos/franelas/Pokemon/pikachu 2.jpg" alt="Pokemon Franela 14">
+                    <h2>Franela De Pokemon 14</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="183">
+                    <img src="imagenes/productos/franelas/Pokemon/pikachu.jpg" alt="Pokemon Franela 15">
+                    <h2>Franela De Pokemon 15</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="184">
+                    <img src="imagenes/productos/franelas/Pokemon/SCUEROU.jpg" alt="Pokemon Franela 16">
+                    <h2>Franela De Pokemon 16</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="185">
+                    <img src="imagenes/productos/franelas/Pokemon/volvasaur.jpg" alt="Pokemon Franela 17">
+                    <h2>Franela De Pokemon 17</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="186">
+                    <img src="imagenes/productos/franelas/Pokemon/volvasaurr.jpg" alt="Pokemon Franela 18">
+                    <h2>Franela De Pokemon 18</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="187">
+                    <img src="imagenes/productos/franelas/Pokemon/2.jpg" alt="Pokemon Franela 19">
+                    <h2>Franela De Pokemon 19</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="188">
+                    <img src="imagenes/productos/franelas/Pokemon/3.jpg" alt="Pokemon Franela 20">
+                    <h2>Franela De Pokemon 20</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="189">
+                    <img src="imagenes/productos/franelas/Pokemon/4.jpg" alt="Pokemon Franela 21">
+                    <h2>Franela De Pokemon 21</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="190">
+                    <img src="imagenes/productos/franelas/Pokemon/5.jpg" alt="Pokemon Franela 22">
+                    <h2>Franela De Pokemon 22</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="191">
+                    <img src="imagenes/productos/franelas/Pokemon/6.jpg" alt="Pokemon Franela 23">
+                    <h2>Franela De Pokemon 23</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="192">
+                    <img src="imagenes/productos/franelas/Pokemon/7.jpg" alt="Pokemon Franela 24">
+                    <h2>Franela De Pokemon 24</h2>
+                    
+                    <p class="precio">$10.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+            </section> <!-- Fin Pokemon-->
+
+
+                    <!-- variedad del producto -->
+            <h3 class="variendad-producto">Dragon Ball</h3>
+                    <!-- Sección de Productos -->
+        <section class="productos">
+            <!-- Producto 1 -->
+            <div class="producto" data-id="193">
+                <img src="imagenes/productos/franelas/Dragon Ball/bedi.jpg" alt="Dragon Ball franela 1">
+                <h2>Franela Dragon Ball 1</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+            
+            
+            <div class="producto" data-id="194">
+                <img src="imagenes/productos/franelas/Dragon Ball/broli 2.jpg" alt="Dragon Ball franela 2">
+                <h2>Franela Dragon Ball 2</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="195">
+                <img src="imagenes/productos/franelas/Dragon Ball/broly.jpg" alt="Dragon Ball franela 3">
+                <h2>Franela Dragon Ball 3</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="196">
+                <img src="" alt="Dragon Ball franela 4">
+                <h2>Franela Dragon Ball 4</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="197">
+                <img src="imagenes/productos/franelas/Dragon Ball/bulma.jpg" alt="Dragon Ball franela 5">
+                <h2>Franela Dragon Ball 5</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="198">
+                <img src="imagenes/productos/franelas/Dragon Ball/cell 2.jpg" alt="Dragon Ball franela 6">
+                <h2>Franela Dragon Ball 6</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="199">
+                <img src="imagenes/productos/franelas/Dragon Ball/cell.jpg" alt="Dragon Ball franela 7">
+                <h2>Franela Dragon Ball 7</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="200">
+                <img src="imagenes/productos/franelas/Dragon Ball/frezer.jpg" alt="Dragon Ball franela 8">
+                <h2>Franela Dragon Ball 8</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="201">
+                <img src="imagenes/productos/franelas/Dragon Ball/giniu.jpg" alt="Dragon Ball franela 9">
+                <h2>Franela Dragon Ball 9</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="202">
+                <img src="imagenes/productos/franelas/Dragon Ball/GOKU VEGETA MARIO.jpg" alt="Dragon Ball franela 10">
+                <h2>Franela Dragon Ball 10</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="203">
+                <img src="imagenes/productos/franelas/Dragon Ball/goku.jpg" alt="Dragon Ball franela 11">
+                <h2>Franela Dragon Ball 11</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="204">
+                <img src="imagenes/productos/franelas/Dragon Ball/GT.jpg" alt="Dragon Ball franela 12">
+                <h2>Franela Dragon Ball 12</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="205">
+                <img src="imagenes/productos/franelas/Dragon Ball/mayimbu 2.jpg" alt="Dragon Ball franela 13">
+                <h2>Franela Dragon Ball 13</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="206">
+                <img src="imagenes/productos/franelas/Dragon Ball/mayimbu.jpg" alt="Dragon Ball franela 14">
+                <h2>Franela Dragon Ball 14</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="207">
+                <img src="imagenes/productos/franelas/Dragon Ball/PATRULLA ROJA 2.jpg" alt="Dragon Ball franela 15">
+                <h2>Franela Dragon Ball 15</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="208">
+                <img src="imagenes/productos/franelas/Dragon Ball/patrulla roja.jpg" alt="Dragon Ball franela 16">
+                <h2>Franela Dragon Ball 16</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="209">
+                <img src="imagenes/productos/franelas/Dragon Ball/pikoro.jpg" alt="Dragon Ball franela 17">
+                <h2>Franela Dragon Ball 17</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="210">
+                <img src="imagenes/productos/franelas/Dragon Ball/PILAF.jpg" alt="Dragon Ball franela 18">
+                <h2>Franela Dragon Ball 18</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="211">
+                <img src="imagenes/productos/franelas/Dragon Ball/rikum.jpg" alt="Dragon Ball franela 19">
+                <h2>Franela Dragon Ball 19</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="212">
+                <img src="imagenes/productos/franelas/Dragon Ball/ROSHI.jpg" alt="Dragon Ball franela 20">
+                <h2>Franela Dragon Ball 20</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="213">
+                <img src="imagenes/productos/franelas/Dragon Ball/vegeta 2.jpg" alt="Dragon Ball franela 21">
+                <h2>Franela Dragon Ball 21</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+
+            <div class="producto" data-id="214">
+                <img src="imagenes/productos/franelas/Dragon Ball/vegeta.jpg" alt="Dragon Ball franela 22">
+                <h2>Franela Dragon Ball 22</h2>
+                <p class="precio">$10.00</p>
+                <input type="number" value="1" min="1">
+                <button class="agregar">Añadir al Carrito</button>
+                <button class="incrementar">+1</button>
+            </div>
+        </section> <!-- Fin Dragon ball-->
+
+</section> <!-- Fin Stranger Things-->
+            <script src="productos.js"></script>
+            <script src="carrito.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</div>
+<script>
+/*nuevo */
+//seccion 
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById('h3Modal');
+    const btn = document.getElementById('showH3Modal');
+    const span = document.getElementById('closeModal');
+    const h3List = document.getElementById('h3List');
+
+    // Llena el modal con los h3
+    const h3s = document.querySelectorAll('h3');
+    h3s.forEach(h3 => {
+        const li = document.createElement('li');
+        li.textContent = h3.textContent;
+        li.addEventListener('click', function() {
+            modal.style.display = 'none';
+            h3.scrollIntoView({behavior: 'smooth'});
+        });
+        h3List.appendChild(li);
+    });
+
+    // Muestra el modal
+    btn.onclick = function() {
+        modal.style.display = 'block';
+    }
+
+    // Cierra el modal al hacer clic en la "x"
+    span.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    // Cierra el modal si se hace clic fuera del contenido
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+});
+
+    </script>
+    
+</body>
+
+<footer>
+    <div class="footer-container">
+        <h4>Síguenos en nuestras redes</h4>
+        <div class="social-icons">
+            <a href="https://wa.me/+584128955434" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/100083208518514/" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/panda__laws/" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+        </html>
