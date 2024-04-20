@@ -864,13 +864,13 @@ input{
     cursor: pointer;
 }
 
-.modal li {
+.modal a {
     cursor: pointer;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.modal li:hover {
+.modal a:hover {
     background-color: #f5f5f5;
 }
 /* Importaremos una tipografía de Google Fonts */
@@ -913,7 +913,7 @@ body {
     cursor: pointer;
 }
 
-.modal li:hover {
+.modal a:hover {
     background-color: #f7f7f7;
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
@@ -981,31 +981,34 @@ body {
     cursor: pointer;
 }
 
-.modal ul {
+.modal a {
     list-style-type: none;
     padding-left: 0;
     margin-top: 20px;
     text-align: center;
 }
 
-.modal li {
+.modal a {
+    background: none; 
+    border-radius: 50px;
+    display: block;
+    text-decoration: none;
     cursor: pointer;
     padding: 12px 18px;
-    border-bottom: 1px solid #5b075b;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.5s, transform 0.5s;
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 0.8px;
     color: #ffffff;
 }
 
-.modal li:last-child {
+.modal a:last-child {
     border-bottom: none;
 }
 
-.modal li:hover {
+.modal a:hover {
     background-color: #5b075b;
-    transform: scale(1.03);
+    transform: scale(1.1);
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
 }
 /* Importaremos otra tipografía de Google Fonts que es más estilizada */
@@ -1154,3 +1157,97 @@ p{
         justify-content: center;
         margin: 0;
 }
+
+
+
+
+
+
+.heart-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Permite que los elementos debajo se puedan interactuar */
+    z-index: 999; /* Asegura que los corazones estén por encima de otros elementos */
+    overflow: hidden;
+  }
+  
+  .heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('corazon.png');
+    background-size: contain;
+    animation: rise 5s linear infinite;
+  }
+  
+  @keyframes rise {
+    0% {
+      bottom: -50px;
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 0;
+    }
+  }
+
+  /* Estilos para el menú de navegación */
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  .navigation-menu li {
+    margin: 0 10px;
+  }
+  
+  .navigation-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilos para hacer el menú responsive */
+  @media (max-width: 768px) {
+    .navigation-menu {
+      flex-wrap: wrap;
+    }
+  
+    .navigation-menu li {
+      flex: 1 1 auto;
+      text-align: center;
+      margin: 5px;
+    }
+  }
+  
+  /* Estilos para efectos de hover */
+  .navigation-menu a {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .navigation-menu a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.3s ease;
+  }
+  
+  .navigation-menu a:hover::before {
+    left: 0;
+  }

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda's Laws</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="catalogo">
+    <a href="carrito.html" id="enlace-carrito">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-carrito">0</span>
+    </a>
+    <header>
+        <a href="index.html" class="titulo-modificaciones">
+            <img src="imagenes/Index/Panda's Laws 320px.png" alt="Panda's Laws"/>
+        </a> 
+        <a href="productos.html">Volver a Catalogo</a>        
+    </header>
+    <!-- Botón para activar el modal -->
+    <div class="centra-botones">
+        <button id="showH3Modal">Variedad de Diseños</button>
+    </div>
+    <!-- Modal para mostrar los h3 -->
+    <div id="h3Modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Diseños</h2>
+            <a href="franelaPokemon.html" id="h3List">Pokemon</a>
+            <a href="franelasDragonBall.html" id="h3List">Dragon Ball</a>
+        </div>
+    </div>
+
+    <!-- Sección de Título General de Producto -->
+    <section class="titulo-producto">
+        <h2>Tazas Blancas sublimadas</h2>
+        <p>Al elegir nuestras tazas sublimadas, no solo estás eligiendo calidad y diseño, sino también una forma de expresarte cada vez que tomas un sorbo de tu bebida favorita. Así que, ya sea para comenzar el día con una taza de café o terminar con una bebida relajante, nuestras tazas están aquí para hacer que cada momento sea más personal y especial.</p>
+    </section>
+        <!-- variedad del producto -->
+    <h3 class="variendad-producto">Dia De Las Madres </h3>
+        <!-- Sección de Productos -->
+    <section class="productos">
+        <!-- Producto 1 -->
+        <div class="heart-container">
+            <!-- No es necesario agregar corazones aquí, se crearán dinámicamente -->
+          </div>
+        <div class="producto" data-id="85">
+            <img src="imagenes/productos/franelas/Dia de las madres/9.jpg" alt="Producto taza 1">
+            <h2>Taza Blanca Dia De las Madres 1</h2>
+            
+            <p class="precio">$6.50</p>
+            <input type="number" value="1" min="1">
+            <button class="agregar">Añadir al Carrito</button>
+            <button class="incrementar">+1</button>
+        </div>
+                <!-- ... Puedes agregar más productos de forma similar ... -->
+                <div class="producto" data-id="170">
+                    <img src="imagenes/productos/franelas/Dia de las madres/1(1).jpg" alt="Producto taza 2">
+                    <h2>Taza Blanca Dia De las Madres 2</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="171">
+                    <img src="imagenes/productos/franelas/Dia de las madres/1.jpg "alt="Producto taza 3">
+                    <h2>Taza Blanca Dia De las Madres 3</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="172">
+                    <img src="imagenes/productos/franelas/Dia de las madres/10(1).jpg" alt="Producto taza 4">
+                    <h2>Taza Blanca Dia De las Madres 4</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="173">
+                    <img src="imagenes/productos/franelas/Dia de las madres/10(2).jpg" alt="Producto taza 5">
+                    <h2>Taza Blanca Dia De las Madres 5</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="174">
+                    <img src="imagenes/productos/franelas/Dia de las madres/11(1).jpg" alt="Producto taza 6">
+                    <h2>Taza Blanca Dia De las Madres 6</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="175">
+                    <img src="imagenes/productos/franelas/Dia de las madres/11(2).jpg" alt="Producto taza 7">
+                    <h2>Taza Blanca Dia De las Madres 7</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="176">
+                    <img src="imagenes/productos/franelas/Dia de las madres/12(1).jpg" alt="Producto taza 8">
+                    <h2>Taza Blanca Dia De las Madres 8</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="177">
+                    <img src="imagenes/productos/franelas/Dia de las madres/12(2).jpg" alt="Producto taza 9">
+                    <h2>Taza Blanca Dia De las Madres 9</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="178">
+                    <img src="imagenes/productos/franelas/Dia de las madres/13(1).jpg" alt="Producto taza 10">
+                    <h2>Taza Blanca Dia De las Madres 10</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="179">
+                    <img src="imagenes/productos/franelas/Dia de las madres/13.jpg" alt="Producto taza 11">
+                    <h2>Taza Blanca Dia De las Madres 11</h2>
+                    
+                        <p class="precio">$6.50</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+                
+                <div class="producto" data-id="180">
+                    <img src="imagenes/productos/franelas/Dia de las madres/14.jpg "alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 12</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="181">
+                    <img src="imagenes/productos/franelas/Dia de las madres/15(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 13</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="182">
+                    <img src="imagenes/productos/franelas/Dia de las madres/15.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 14</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="183">
+                    <img src="imagenes/productos/franelas/Dia de las madres/16(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 15</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="184">
+                    <img src="imagenes/productos/franelas/Dia de las madres/16.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 16</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="185">
+                    <img src="imagenes/productos/franelas/Dia de las madres/17(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 17</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="186">
+                    <img src="imagenes/productos/franelas/Dia de las madres/17.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 18</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="187">
+                    <img src="imagenes/productos/franelas/Dia de las madres/18(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 19</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="188">
+                    <img src="imagenes/productos/franelas/Dia de las madres/18.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 20</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="189">
+                    <img src="imagenes/productos/franelas/Dia de las madres/19(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 21</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="190">
+                    <img src="imagenes/productos/franelas/Dia de las madres/19.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 22</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="191">
+                    <img src="imagenes/productos/franelas/Dia de las madres/2(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 23</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="192">
+                    <img src="imagenes/productos/franelas/Dia de las madres/2.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 24</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="193">
+                    <img src="imagenes/productos/franelas/Dia de las madres/20(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 25</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="194">
+                    <img src="imagenes/productos/franelas/Dia de las madres/20.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 26</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="195">
+                    <img src="imagenes/productos/franelas/Dia de las madres/21(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 27</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="196">
+                    <img src="imagenes/productos/franelas/Dia de las madres/22.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 28</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="197">
+                    <img src="imagenes/productos/franelas/Dia de las madres/21.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 29</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="198">
+                    <img src="imagenes/productos/franelas/Dia de las madres/22(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 30</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="199">
+                    <img src="imagenes/productos/franelas/Dia de las madres/23(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 31</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="200">
+                    <img src="imagenes/productos/franelas/Dia de las madres/23.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 32</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="201">
+                    <img src="imagenes/productos/franelas/Dia de las madres/24(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 33</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="202">
+                    <img src="imagenes/productos/franelas/Dia de las madres/24.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 34</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="203">
+                    <img src="imagenes/productos/franelas/Dia de las madres/25(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 35</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="204">
+                    <img src="imagenes/productos/franelas/Dia de las madres/25.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 36</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="205">
+                    <img src="imagenes/productos/franelas/Dia de las madres/26(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 37</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="206">
+                    <img src="imagenes/productos/franelas/Dia de las madres/26.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 38</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="207">
+                    <img src="imagenes/productos/franelas/Dia de las madres/27(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 39</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="208">
+                    <img src="imagenes/productos/franelas/Dia de las madres/27.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 40</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="209">
+                    <img src="imagenes/productos/franelas/Dia de las madres/28(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 41</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="210">
+                    <img src="imagenes/productos/franelas/Dia de las madres/28.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 42</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="211">
+                    <img src="imagenes/productos/franelas/Dia de las madres/29(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 43</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="212">
+                    <img src="imagenes/productos/franelas/Dia de las madres/29.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 44</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="213">
+                    <img src="imagenes/productos/franelas/Dia de las madres/3(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 45</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="214">
+                    <img src="imagenes/productos/franelas/Dia de las madres/3.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 46</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="215">
+                    <img src="imagenes/productos/franelas/Dia de las madres/30(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 47</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="216">
+                    <img src="imagenes/productos/franelas/Dia de las madres/30.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 48</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="217">
+                    <img src="imagenes/productos/franelas/Dia de las madres/31(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 49</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="218">
+                    <img src="imagenes/productos/franelas/Dia de las madres/31.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 50</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="219">
+                    <img src="imagenes/productos/franelas/Dia de las madres/32(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 51</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="220">
+                    <img src="imagenes/productos/franelas/Dia de las madres/32.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 52</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="221">
+                    <img src="imagenes/productos/franelas/Dia de las madres/34.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 53</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="222">
+                    <img src="imagenes/productos/franelas/Dia de las madres/35.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 54</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="223">
+                    <img src="imagenes/productos/franelas/Dia de las madres/36.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 55</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="224">
+                    <img src="imagenes/productos/franelas/Dia de las madres/37.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 56</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="225">
+                    <img src="imagenes/productos/franelas/Dia de las madres/38.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 57</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="226">
+                    <img src="imagenes/productos/franelas/Dia de las madres/39.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 58</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="227">
+                    <img src="imagenes/productos/franelas/Dia de las madres/4(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 59</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="228">
+                    <img src="imagenes/productos/franelas/Dia de las madres/4.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 60</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="229">
+                    <img src="imagenes/productos/franelas/Dia de las madres/40.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 61</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="230">
+                    <img src="imagenes/productos/franelas/Dia de las madres/41.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 62</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="231">
+                    <img src="imagenes/productos/franelas/Dia de las madres/42.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 63</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="232">
+                    <img src="imagenes/productos/franelas/Dia de las madres/5(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 64</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="233">
+                    <img src="imagenes/productos/franelas/Dia de las madres/6(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 65</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="234">
+                    <img src="imagenes/productos/franelas/Dia de las madres/6.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 66</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="235">
+                    <img src="imagenes/productos/franelas/Dia de las madres/7(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 67</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="236">
+                    <img src="imagenes/productos/franelas/Dia de las madres/7.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 68</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="237">
+                    <img src="imagenes/productos/franelas/Dia de las madres/8(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 69</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="238">
+                    <img src="imagenes/productos/franelas/Dia de las madres/8.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 70</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="239">
+                    <img src="imagenes/productos/franelas/Dia de las madres/9(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 71</h2>
+                    <p class="precio">$6.50</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                
+
+            </section> <!-- Fin Dia De Las Madres-->
+            <div class="heart-container">
+                <!-- No es necesario agregar corazones aquí, se crearán dinámicamente -->
+              </div>
+            <script src="productos.js"></script>
+            <script src="carrito.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</div>
+<script>
+/*nuevo */
+//seccion 
+document.addEventListener('DOMContentLoaded', function() {
+    const heartContainer = document.querySelector('.heart-container');
+  
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heartContainer.appendChild(heart);
+  
+      // Ajusta la posición inicial del corazón
+      heart.style.left = Math.random() * 100 + '%';
+  
+      // Elimina el corazón después de que termine la animación
+      setTimeout(function() {
+        heart.remove();
+      }, 5000);
+    }
+  
+    setInterval(createHeart, 500);
+  });
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById('h3Modal');
+    const btn = document.getElementById('showH3Modal');
+    const span = document.getElementById('closeModal');
+    const h3List = document.getElementById('h3List');
+
+
+    
+
+    // Muestra el modal
+    btn.onclick = function() {
+        modal.style.display = 'block';
+    }
+
+    // Cierra el modal al hacer clic en la "x"
+    span.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    // Cierra el modal si se hace clic fuera del contenido
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+});
+
+    </script>
+    
+</body>
+
+<footer>
+    <div class="footer-container">
+        <h4>Síguenos en nuestras redes</h4>
+        <div class="social-icons">
+            <a href="https://wa.me/+584128955434" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/100083208518514/" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/panda__laws/" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+        </html>

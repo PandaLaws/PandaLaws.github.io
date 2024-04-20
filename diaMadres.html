@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda's Laws</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="catalogo">
+    <a href="carrito.html" id="enlace-carrito">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-carrito">0</span>
+    </a>
+    <header>
+        <a href="index.html" class="titulo-modificaciones">
+            <img src="imagenes/Index/Panda's Laws 320px.png" alt="Panda's Laws"/>
+        </a> 
+        <a href="productos.html">Volver a Catalogo</a>        
+    </header>
+    <!-- Botón para activar el modal -->
+    <div class="centra-botones">
+        <button id="showH3Modal">Variedad de Diseños</button>
+    </div>
+    <!-- Modal para mostrar los h3 -->
+    <div id="h3Modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Diseños</h2>
+            <a href="diaMadres.html" id="h3List">Dia De Las Madres</a>
+            <a href="dragonBall.html" id="h3List">Dragon Ball</a>
+            <a href="demonSlayer.html" id="h3List">Demon Slayer</a>
+            <a href="naruto.html" id="h3List">Naruto</a>
+            <a href="helloKitty.html" id="h3List">Hello kitty</a>
+            <a href="losSimpson.html" id="h3List">Los Simpsons</a>
+            <a href="tokyoRevengers.html" id="h3List">Tokyo Revengers</a>
+            <a href="strangerThings.html" id="h3List">Stranger Things</a>
+        </div>
+    </div>
+
+    <!-- Sección de Título General de Producto -->
+    <section class="titulo-producto">
+        <h2>Tazas Blancas sublimadas</h2>
+        <p>Al elegir nuestras tazas sublimadas, no solo estás eligiendo calidad y diseño, sino también una forma de expresarte cada vez que tomas un sorbo de tu bebida favorita. Así que, ya sea para comenzar el día con una taza de café o terminar con una bebida relajante, nuestras tazas están aquí para hacer que cada momento sea más personal y especial.</p>
+    </section>
+        <!-- variedad del producto -->
+    <h3 class="variendad-producto">Dia De Las Madres </h3>
+        <!-- Sección de Productos -->
+    <section class="productos">
+        <!-- Producto 1 -->
+        <div class="heart-container">
+            <!-- No es necesario agregar corazones aquí, se crearán dinámicamente -->
+          </div>
+        <div class="producto" data-id="85">
+            <img src="imagenes/productos/Tazas/Dia de las madres/02.png" alt="Producto taza 1">
+            <h2>Taza Blanca Dia De las Madres 1</h2>
+            
+            <p class="precio">$4.00</p>
+            <input type="number" value="1" min="1">
+            <button class="agregar">Añadir al Carrito</button>
+            <button class="incrementar">+1</button>
+        </div>
+                <!-- ... Puedes agregar más productos de forma similar ... -->
+                <div class="producto" data-id="86">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/01(1).jpg" alt="Producto taza 2">
+                    <h2>Taza Blanca Dia De las Madres 2</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="87">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/01(2).jpg" alt="Producto taza 3">
+                    <h2>Taza Blanca Dia De las Madres 3</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="88">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/01(3).jpg" alt="Producto taza 4">
+                    <h2>Taza Blanca Dia De las Madres 4</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="89">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/01(4).jpg" alt="Producto taza 5">
+                    <h2>Taza Blanca Dia De las Madres 5</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="90">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/01.jpg" alt="Producto taza 6">
+                    <h2>Taza Blanca Dia De las Madres 6</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="91">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/01.png" alt="Producto taza 7">
+                    <h2>Taza Blanca Dia De las Madres 7</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="92">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02(1).jpg" alt="Producto taza 8">
+                    <h2>Taza Blanca Dia De las Madres 8</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="93">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02(2).jpg" alt="Producto taza 9">
+                    <h2>Taza Blanca Dia De las Madres 9</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="94">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02(3).jpg" alt="Producto taza 10">
+                    <h2>Taza Blanca Dia De las Madres 10</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+
+                <div class="producto" data-id="95">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02(4).jpg" alt="Producto taza 11">
+                    <h2>Taza Blanca Dia De las Madres 11</h2>
+                    
+                        <p class="precio">$4.00</p>
+                        <!-- Input para la cantidad -->
+                        <input type="number" value="1" min="1">
+                        <!-- Botones para modificar la cantidad y agregar al carrito -->
+                        <button class="agregar">Añadir al Carrito</button>
+                        <button class="incrementar">+1</button>
+                </div>
+                
+                <div class="producto" data-id="96">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 12</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="97">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 13</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="98">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 14</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="99">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 15</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="100">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 16</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="101">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03(4).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 17</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="102">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 18</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="103">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 19</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="104">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/04(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 20</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="105">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/04(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 21</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="106">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/04(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 22</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="107">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/03(4).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 23</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="108">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/04.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 24</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="109">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/04.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 25</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="110">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/05(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 26</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="111">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/05(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 27</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="112">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/05(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 28</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="113">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/05(4).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 29</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="114">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/05.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 30</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="115">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/05.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 31</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="116">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/06(1).jpg alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 32</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="117">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/06(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 33</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="119">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/06(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 34</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="119">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/06(4).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 35</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="120">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/06.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 36</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="121">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/06.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 37</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="122">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/07(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 38</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="123">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/07(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 39</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="124">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/07(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 40</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="125">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/07(4).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 41</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="126">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/07.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 42</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="127">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/07.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 43</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="128">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/08(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 44</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="129">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/08(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 45</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="130">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/08(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 46</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="131">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/08.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 47</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="132">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/08.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 48</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="133">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/09(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 49</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="134">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/09(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 50</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="135">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/09(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 51</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="136">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/09.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 52</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="137">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/09.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 53</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="138">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/1.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 54</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="139">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/10(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 55</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="140">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/10(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 56</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="141">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/10(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 57</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="142">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/10(4).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 58</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="143">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/10.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 59</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="144">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/10.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 60</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="145">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/11(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 61</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="146">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/11(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 62</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="147">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/11(3).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 63</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="148">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/11.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 64</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="149">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/11.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 65</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="150">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/12(1).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 66</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="151">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/12(2).jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 67</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="152">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/12.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 68</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="153">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/12.png" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 69</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="154">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/13.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 70</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="155">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/14.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 71</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="156">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/15.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 72</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="157">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/16.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 73</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="158">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/17.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 74</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="159">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/18.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 75</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="160">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/19.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 76</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="161">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/2.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 77</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="162">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/20.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 78</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="163">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/3.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 79</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="164">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/02.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 80</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="165">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/4.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 81</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="166">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/5.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 82</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="167">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/6.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 83</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="168">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/7.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 84</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="169">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/8.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 85</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+                <div class="producto" data-id="169">
+                    <img src="imagenes/productos/Tazas/Dia de las madres/9.jpg" alt="Producto taza 12">
+                    <h2>Taza Blanca Dia De las Madres 86</h2>
+                    <p class="precio">$4.00</p>
+                    <input type="number" value="1" min="1">
+                    <button class="agregar">Añadir al Carrito</button>
+                    <button class="incrementar">+1</button>
+                </div>
+
+            </section> <!-- Fin Dia De Las Madres-->
+            <div class="heart-container">
+                <!-- No es necesario agregar corazones aquí, se crearán dinámicamente -->
+              </div>
+            <script src="productos.js"></script>
+            <script src="carrito.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</div>
+<script>
+/*nuevo */
+//seccion 
+document.addEventListener('DOMContentLoaded', function() {
+    const heartContainer = document.querySelector('.heart-container');
+  
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heartContainer.appendChild(heart);
+  
+      // Ajusta la posición inicial del corazón
+      heart.style.left = Math.random() * 100 + '%';
+  
+      // Elimina el corazón después de que termine la animación
+      setTimeout(function() {
+        heart.remove();
+      }, 5000);
+    }
+  
+    setInterval(createHeart, 500);
+  });
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById('h3Modal');
+    const btn = document.getElementById('showH3Modal');
+    const span = document.getElementById('closeModal');
+    const h3List = document.getElementById('h3List');
+
+
+    
+
+    // Muestra el modal
+    btn.onclick = function() {
+        modal.style.display = 'block';
+    }
+
+    // Cierra el modal al hacer clic en la "x"
+    span.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    // Cierra el modal si se hace clic fuera del contenido
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+});
+
+    </script>
+    
+</body>
+
+<footer>
+    <div class="footer-container">
+        <h4>Síguenos en nuestras redes</h4>
+        <div class="social-icons">
+            <a href="https://wa.me/+584128955434" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/100083208518514/" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/panda__laws/" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+        </html>

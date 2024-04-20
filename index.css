@@ -364,6 +364,7 @@ h4 {
     padding: 20px 50px;
     border-radius: 100px;
     transition: color 0.3s;
+    margin: 0;
 }
 
 .social-icons .whatsapp:hover {
@@ -389,6 +390,7 @@ a {
     background: linear-gradient(135deg, #5b075b, #f51786);
     border-radius: 50px;
     transition: transform 0.3s ease;
+    margin: auto;
 }
 a:hover{
     transform: scale(1.1);
@@ -410,3 +412,112 @@ a:hover{
     }
 }
 
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .carousel-control-prev {
+    left: 10px;
+  }
+  
+  .carousel-control-next {
+    right: 10px;
+  }
+
+  .carousel-item {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active {
+    display: block;
+    opacity: 1;
+  }
+  /*corazones*/
+  .heart-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Permite que los elementos debajo se puedan interactuar */
+    z-index: 999; /* Asegura que los corazones estén por encima de otros elementos */
+    overflow: hidden;
+  }
+  
+  .heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('corazon.png');
+    background-size: contain;
+    animation: rise 5s linear infinite;
+  }
+  
+  @keyframes rise {
+    0% {
+      bottom: -50px;
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 0;
+    }
+  }
